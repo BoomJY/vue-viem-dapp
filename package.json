@@ -1,0 +1,24 @@
+{
+  "name": "dapp-vue-viem",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Vue3 + viem DApp 前端样板:连钱包 / 余额 / 转账 / mint / 交易状态 / revert 友好提示",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "vue-tsc --noEmit"
+  },
+  "dependencies": {
+    "viem": "^2.21.0",
+    "vue": "^3.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "@vitejs/plugin-vue": "^5.1.0",
+    "typescript": "^5.6.0",
+    "vite": "^5.4.0",
+    "vue-tsc": "^2.1.0"
+  }
+}
