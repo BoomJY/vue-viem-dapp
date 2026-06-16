@@ -1,5 +1,7 @@
 # 04 · Vue3 + viem DApp 前端样板
 
+> 🟢 **连真实合约即跑**:`.env.example` 已指向 Sepolia 上已部署的 StudioToken([`0x834a…3984`](https://sepolia.etherscan.io/address/0x834a5cE3a7b214369DbaFcc59757031c259C3984))。`cp .env.example .env && npm i && npm run dev` 即可连 MetaMask 演示读写。
+
 一个**极简但完整**的去中心化应用(DApp)前端:连接 MetaMask、查看 ETH 与 ERC-20 余额、发起代币转账 / 铸造,并对交易状态(pending / confirmed / failed)和合约 revert 做**友好提示**。
 
 技术栈纯手写,不依赖任何脚手架模板,也不引入 UI 库,适合作为接「DApp 全栈单」的核心前端样板。
